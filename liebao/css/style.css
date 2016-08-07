@@ -1,0 +1,564 @@
+
+@charset "utf-8";
+h1,h2,h3,h4,h5,h6,i,em,b,p{
+    font-size: 100%;
+    word-wrap: break-word;
+    font-weight: normal;
+    font-style: normal;
+}
+.chenxuezhi{
+    zoom: 1;
+}
+body{
+    height: 100%;
+}
+.wrap{
+    display: block;
+    position: relative;
+    min-height: 100%;
+}
+
+.navFir{
+    width: 100%;
+    height: 89px;
+    position: absolute;
+    z-index: 111;
+    top: 0;
+    left: 0;
+    background: url("../image1/nav-b.png")repeat-x;
+}
+.logo{
+    display: block;
+    width: 270px;
+    height: 51px;
+    position: absolute;
+    z-index: 2;
+    top: 19px;
+    left: 50%;
+    margin-left: -480px;
+}
+.nav-main{
+    width: 960px;
+    margin: 0 auto;
+}
+.nav-main a{
+    height: 88px;
+    padding: 0 30px;
+    position: relative;
+    font-size: 18px;
+    color: #f4f4f4;
+    overflow: hidden;
+    float: right;
+    opacity: 0.8;
+}
+.nav-main a em{
+    height: 88px;
+    line-height: 88px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
+    white-space: normal;
+}
+.nav-main a i{
+    width: 100%;
+    height: 88px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.slide-main{
+    height: 580px;
+    position: relative;
+}
+.prev{
+    display: block;
+    width: 440px;
+    height: 44px;
+    position: absolute;
+    left: 70px;
+    top: 267px;
+    z-index: 222;
+    opacity: 0.6;
+    overflow: hidden;
+    cursor: pointer;
+}
+.slide-box{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+}
+#bgStyleA{
+    background: #ff6900;
+}
+.slide{
+    height: 490px;
+    width: 100%;
+    padding-top: 89px;
+    overflow: hidden;
+}
+.obj-a{
+    position: absolute;
+    display: block;
+    width: 952px;
+    height: 352px;
+    top: 100px;
+    left: 50%;
+    z-index: 9;
+    margin-left: -476px;
+    text-align: center;
+}
+.obj-b{
+    position: absolute;
+    width: 952px;
+    height: 100px;
+    top: 406px;
+    margin-left: -476px;
+    text-align: center;
+    left: 50%;
+    z-index: 9;
+}
+#bgStyleB{
+    background: #193d85;
+}
+.obj-c{
+    position: absolute;
+    display: block;
+    height: 582px;
+    top: 0;
+    margin-left: -540px;
+    z-index: 9;
+    left: 50%;
+}
+.obj-d{
+    height: 164px;
+    top: 228px;
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+}
+.obj-d p{
+    display: block;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    clear: both;
+}
+.next{
+    right: 70px;
+    display: block;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    z-index: 222;
+    top: 267px;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.item{
+    display: block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    z-index: 124;
+    top: 550px;
+    left: 0;
+    text-align: center;/*设置到这时  他们都在一起了 */
+}
+.ft-main {
+    height: 296px;
+    border-bottom: 1px solid #ebebeb;
+    background: #f8f8f8;
+}
+.ft-list{
+    width: 960px;
+    margin: 0 auto;
+}
+.ft-list li{
+    width: 33.3%;
+    height: 296px;
+    position: relative;
+    float: left;
+}
+.ft-list a{
+    display: block;
+    width: 100%;
+    height: 296px;
+    cursor: pointer;
+}
+.icon-pc{
+    position: absolute;
+    display: block;
+    width: 152px;
+    height: 124px;
+    top: 58px;
+    left: 84px;
+    z-index: 3;
+    background: url("../image1/icon-24.png")no-repeat;
+    background-position: left -128px;
+}
+
+.icon-pc:hover{
+    background: url("../image1/icon-24.png")no-repeat 0 0;
+}
+.ft-list h3{
+    position: absolute;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    left: 0;
+    z-index: 3;
+    text-align: center;
+    bottom: 72px;
+    font-size: 18px;
+    color: #ff6900;
+    overflow: hidden;
+}
+.ft-list p{
+    position: absolute;
+    bottom: 46px;
+    color: #333333;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    left: 0;
+    z-index: 3;
+    text-align: center;
+    overflow: hidden;
+
+}
+.radius{
+
+    width: 164px;
+    height: 165px;
+    position: absolute;
+    left: 50%;
+    margin-left: -82px;
+    top: 34px;
+    border-radius: 50%;
+    background: url("../image1/radius-24.png")no-repeat left top;
+    box-shadow: 0 0 0 20px transparent;
+    transition: 1s;
+    -webkit-transition: 1s;
+    opacity: 0;
+
+   /* display: none;
+    width: 164px;
+    height: 165px;
+    background: url("../image1/radius-24.png")no-repeat left top;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    margin-left: -82px;
+    top: 34px;
+    opacity: 0;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    transition: transform 1s;
+    -webkit-transition: transform 1s;*/
+}
+.radius:hover{
+    opacity: 1;
+   box-shadow: 0 0 0 0 #ff6900;
+
+   /* display: block;
+   _background: url("../image1/radius-24.png")no-repeat left top;
+    /!*opacity: 1;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);*!/*/
+}
+.icon-phone{
+    position: absolute;
+    display: block;
+    width: 152px;
+    height: 124px;
+    top: 58px;
+    left: 84px;
+    z-index: 3;
+    background: url("../image1/icon-24.png")no-repeat;
+    background-position: -300px -128px;
+}
+.icon-phone:hover{
+    background: url("../image1/icon-24.png")no-repeat -300px 0;
+}
+.icon-wifi{
+    position: absolute;
+    display: block;
+    width: 152px;
+    height: 124px;
+    top: 58px;
+    left: 80px;
+    z-index: 3;
+    background: url("../image1/icon-24.png")no-repeat;
+    background-position: -604px -132px;
+}
+.icon-wifi:hover{
+    background:url("../image1/icon-24.png")no-repeat -604px 0;
+}
+.hot-news{
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px 0 30px 0;
+}
+.title{
+    font-size: 20px;
+    color: #ff6900;
+}
+.news-main{
+    width: 960px;
+    height: 160px;
+    margin: 0 auto;
+    padding: 25px 0;
+    position: relative;
+}
+.news-img{
+    display: block;
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.news-img img{
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+
+}
+.news-img :hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.news-info{
+    margin-left: 334px;
+}
+.news-info h3{
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    overflow: hidden;
+}
+.news-info h3 a{
+    color: #333333;
+}
+.news-info h3 a:hover{
+    color: #ff6900;
+}
+.time-share{
+    display: block;
+    height: 32px;  line-height: 32px;
+    color: #666666;
+}
+.news-time{
+    display: inline-block;
+    padding-right: 30px;
+
+}
+.share-news{
+    display: inline-block;
+    padding: 8px;
+}
+
+
+
+.n-sina{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background: url("../image1/back.png")no-repeat;
+    background-position: 2px -147px;
+    text-indent: -999px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.n-sina:hover{
+    background: url("../image1/back.png")no-repeat 2px -176px;
+}
+.n-qq{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background: url("../image1/back.png")no-repeat;
+    background-position: -37px -146px;
+    text-indent: -999px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.n-qq:hover{
+    background: url("../image1/back.png")no-repeat -37px -175px;
+}
+.n-space{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background: url("../image1/back.png")no-repeat;
+    background-position: -70px -146px;
+    text-indent: -999px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.n-space:hover{
+    background: url("../image1/back.png")no-repeat -70px -177px;
+}
+.news-info p{
+    height: 72px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.news-info p a{
+    display: block;
+    color: #666666;
+    cursor: pointer;
+}
+
+.details{
+
+    display: block;
+    width: 107px;
+    height: 35px;
+    line-height: 34px;
+    position: absolute;
+    z-index: 2;
+    bottom: 25px;
+    right: 0;
+   background: url("../image1/back.png")no-repeat left -54px;
+    text-indent: 26px;
+    overflow: hidden;
+    cursor: pointer;
+    color:#ff6900;
+}
+.details:hover{
+    background:  url("../image1/back.png")no-repeat left -92px;
+    color: #ffffff;
+
+}
+.bbs-main{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 190px;
+}
+.title{
+    font-size: 20px;
+    color: #ff6900;
+}
+.bbs-list{
+    width: 960px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+.bbs-list li{
+    width: 33.3%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    overflow: hidden;
+}
+.bbs-list li:hover a{
+    color: #ff6900;
+}
+.bbs-list a{
+    display: block;
+    padding: 0 10px 0 24px;
+    background: url("../image1/back.png")no-repeat left -219px;
+    color: #666666;
+}
+.chenxue{
+    position: relative;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    background: #464646;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.newShare{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+.f-sina{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background: url("../image1/newshares.png")no-repeat;
+    background-position: left top;
+    vertical-align: top;
+    overflow: hidden;
+    opacity: .6;
+}
+.f-sina:hover{
+    background: #c0c0c0;
+}
+.f-qq{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    background: url("../image1/newshares.png")no-repeat;
+    background-position: -62px top;
+    vertical-align: top;
+    overflow: hidden;
+    opacity: .6;
+}
+.f-space{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    background: url("../image1/newshares.png")no-repeat;
+    background-position: -125px top;
+    vertical-align: top;
+    overflow: hidden;
+    opacity: .6;
+}
+.bar-link .copy{
+    display: block;
+    line-height: 40px;
+    color: #c0c0c0;
+    text-align: center;
+}
+
+.bar-link a{
+    display: inline-block;
+    padding: 0 10px;
+    color: #c0c0c0;
+}
+.bar-link .zhi:hover{
+    color: #eeeeee;
+}
+.copy em{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    color: #6d6d6d;
+}
